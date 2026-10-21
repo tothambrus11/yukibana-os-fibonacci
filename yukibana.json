@@ -31,10 +31,11 @@
     }
   },
   "openFiles": [
-    "src/main/scala/Example.scala"
+    "src/main/scala/Fibonacci.scala"
   ],
   "readOnly": [
     "yukibana.json",
     "build.sbt"
-  ]
+  ],
+  "projectId": "01a15ee0-5222-74e0-b245-858db9f2f972"
 }
