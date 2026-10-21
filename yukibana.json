@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "kind": "scala-sbt",
+  "submission": {
+    "exclude": [
+      ".vscode",
+      ".theia",
+      "project",
+      ".bloop",
+      ".metals",
+      "target"
+    ]
+  },
+  "features": {
+    "squiggles": false,
+    "codeSuggestions": false,
+    "ai": false
+  },
+  "layout": {
+    "widgets": {
+      "aiChat": false,
+      "debug": false,
+      "files": false,
+      "outline": false,
+      "search": false,
+      "testing": false,
+      "vcs": false
+    },
+    "containers": {
+      "metals-explorer": false
+    }
+  },
+  "openFiles": [
+    "src/main/scala/Example.scala"
+  ],
+  "readOnly": [
+    "yukibana.json",
+    "build.sbt"
+  ]
+}

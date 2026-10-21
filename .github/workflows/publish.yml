@@ -1,0 +1,19 @@
+name: Pack and publish
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  pack-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: tothambrus11/yukibana-cloud/action@main
+        with:
+          url: https://cloud.yukibana.dev
+          project: ${{ vars.YUKIBANA_PROJECT }}
+          token: ${{ secrets.YUKIBANA_TOKEN }}
+          label: ${{ github.ref_name }}
+
